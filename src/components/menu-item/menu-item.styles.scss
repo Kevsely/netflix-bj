@@ -1,0 +1,15 @@
+#menu-item {
+    margin: auto;
+    padding: 5px;
+
+    width: fit-content;
+    height: fit-content;
+    
+    &:hover {
+        cursor: pointer;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding-top: 3px;
+        font-weight: 400;
+    }
+}
