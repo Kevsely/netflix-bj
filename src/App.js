@@ -5,7 +5,7 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <MenuItem>Menu-Item</MenuItem>
+      <MenuItem active>Menu-Item</MenuItem>
     </div>
   );
 }

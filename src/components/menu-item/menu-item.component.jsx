@@ -2,9 +2,9 @@ import React from "react";
 
 import "./menu-item.styles.scss"
 
-const MenuItem = ({ children }) => {
+const MenuItem = ({ children, active }) => {
     return (
-        <div id="menu-item">
+        <div className={`menu-item ${active ? "active" : ""}`} >
             <span>{children}</span>
         </div>
     )

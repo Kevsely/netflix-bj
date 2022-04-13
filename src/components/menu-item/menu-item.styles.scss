@@ -1,9 +1,13 @@
-#menu-item {
+.menu-item {
     margin: auto;
     padding: 5px;
 
     width: fit-content;
     height: fit-content;
+
+    &.active {
+        font-weight: 400;
+    }
     
     &:hover {
         cursor: pointer;
