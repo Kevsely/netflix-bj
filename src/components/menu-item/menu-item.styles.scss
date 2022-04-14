@@ -9,6 +9,8 @@
 
     text-align: center;
 
+    transition: font-weight .2s ease;
+
     &.active {
         font-weight: 400;
     }

@@ -11,8 +11,10 @@
 
         overflow: hidden;
 
+        
         &:hover {
             cursor: pointer;
+            filter: brightness(0.9);
         }
 
         img {
