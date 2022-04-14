@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 30px;
+
+    width: auto;
+    height: 40px;
+
+    .logo {
+        margin: auto;
+
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .menu-items {
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        margin: 0 10px;
+    }
+
+    .menu-buttons {
+        display: flex;
+        flex-direction: row;
+    }
+}
