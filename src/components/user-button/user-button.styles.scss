@@ -1,0 +1,23 @@
+.user-button {
+    .circle-container {
+
+        border: 2px solid white ;
+        border-radius: 50%;
+
+        height: 32px;
+        width: 32px;
+
+        overflow: hidden;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        img {
+            height: 32px;
+            width: 32px;
+
+            object-fit: cover;
+        }
+    }
+}
