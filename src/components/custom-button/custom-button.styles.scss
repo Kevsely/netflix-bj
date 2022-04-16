@@ -1,0 +1,14 @@
+button {
+    border: 1px solid;
+    border-radius: 10px;
+
+    padding: 8px 30px;
+
+    color: white;
+    background: none;
+
+    &.main {
+        border: none;
+        background-color: rgb(32, 93, 213);
+    }
+}
