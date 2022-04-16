@@ -1,0 +1,27 @@
+.synopsis {
+    margin: 50px;
+
+    width: 40%;
+
+    * {
+        margin-bottom: 15px;
+    }
+
+    .title {
+        text-transform: uppercase;
+        font-size: 80px;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        margin-bottom: 5px;
+    }
+
+    .description {
+        color: rgb(224, 224, 224);
+    }
+
+    .buttons-container * {
+        margin-right: 10px;
+    }
+}

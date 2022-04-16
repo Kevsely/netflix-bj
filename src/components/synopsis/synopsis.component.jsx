@@ -1,5 +1,7 @@
 import React from "react"
 
+import CustomButton from "../custom-button/custom-button.component"
+
 import "./synopsis.styles.scss" 
 
 const Synopsis = () => {
@@ -14,8 +16,8 @@ const Synopsis = () => {
             </div>
 
             <div className="buttons-container">
-                <button>Watch Now</button>
-                <button>See More</button>
+                <CustomButton main>Watch Now</CustomButton>
+                <CustomButton>See more</CustomButton>
             </div>
         </div>
     )

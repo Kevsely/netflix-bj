@@ -1,10 +1,10 @@
 import './App.scss';
-import CustomButton from './components/custom-button/custom-button.component';
+import Synopsis from './components/synopsis/synopsis.component';
 
 function App() {
     return (
         <div className="App">
-            <CustomButton main>Watch Now</CustomButton>
+            <Synopsis />
         </div>
     );
 }
