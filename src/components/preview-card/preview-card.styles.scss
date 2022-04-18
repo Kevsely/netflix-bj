@@ -1,0 +1,15 @@
+.preview-card {
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+
+    &.landscape {
+        height: 110px;
+        width: 200px;
+    }
+
+    &.portrait {
+        height: 250px;
+        width: 150px;
+    }
+}

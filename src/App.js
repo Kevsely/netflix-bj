@@ -1,10 +1,10 @@
 import './App.scss';
-import Synopsis from './components/synopsis/synopsis.component';
+import PreviewCard from './components/preview-card/preview-card.component';
 
 function App() {
     return (
         <div className="App">
-            <Synopsis />
+            <PreviewCard orientation={"landscape"} />
         </div>
     );
 }
@@ -21,7 +21,8 @@ export default App;
         --SearchButton--OK
         --UserButton--OK
       --Synopsis-Cmp
-        --CustomButton
+        --CustomButton--OK
       --CollectionsOverview-Cmp
+        --PreviewCard
     */
 }
